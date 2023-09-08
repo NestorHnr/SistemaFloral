@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33627.172
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaFloral", "SistemaFloral\SistemaFloral.csproj", "{B073469C-2EC2-456D-9E94-8AFEACAF5CAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaFloral", "SistemaFloral\SistemaFloral.csproj", "{B073469C-2EC2-456D-9E94-8AFEACAF5CAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaFloral.AccesoDatos", "SistemaFloral.AccesoDatos\SistemaFloral.AccesoDatos.csproj", "{BB9F981E-5E6A-4989-902C-2D3B76F5838F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaFloral.Modelos", "SistemaFloral.Modelos\SistemaFloral.Modelos.csproj", "{D5609A92-556D-4C9A-A920-FA4E6364AF3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaFloral.Utilidades", "SistemaFloral.Utilidades\SistemaFloral.Utilidades.csproj", "{018C465E-E582-4CD3-B052-09FD91E745E1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{B073469C-2EC2-456D-9E94-8AFEACAF5CAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B073469C-2EC2-456D-9E94-8AFEACAF5CAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B073469C-2EC2-456D-9E94-8AFEACAF5CAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB9F981E-5E6A-4989-902C-2D3B76F5838F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB9F981E-5E6A-4989-902C-2D3B76F5838F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB9F981E-5E6A-4989-902C-2D3B76F5838F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB9F981E-5E6A-4989-902C-2D3B76F5838F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5609A92-556D-4C9A-A920-FA4E6364AF3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5609A92-556D-4C9A-A920-FA4E6364AF3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5609A92-556D-4C9A-A920-FA4E6364AF3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5609A92-556D-4C9A-A920-FA4E6364AF3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{018C465E-E582-4CD3-B052-09FD91E745E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{018C465E-E582-4CD3-B052-09FD91E745E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{018C465E-E582-4CD3-B052-09FD91E745E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{018C465E-E582-4CD3-B052-09FD91E745E1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

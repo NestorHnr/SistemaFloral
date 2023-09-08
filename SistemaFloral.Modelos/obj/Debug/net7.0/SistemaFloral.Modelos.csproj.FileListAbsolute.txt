@@ -1,0 +1,15 @@
+C:\Users\nesto\Dropbox\PROGRAMACION\Udemy_.Net_6\SistemaFloral\SistemaFloral.Modelos\bin\Debug\net7.0\SistemaFloral.Modelos.deps.json
+C:\Users\nesto\Dropbox\PROGRAMACION\Udemy_.Net_6\SistemaFloral\SistemaFloral.Modelos\bin\Debug\net7.0\SistemaFloral.Modelos.dll
+C:\Users\nesto\Dropbox\PROGRAMACION\Udemy_.Net_6\SistemaFloral\SistemaFloral.Modelos\bin\Debug\net7.0\SistemaFloral.Modelos.pdb
+C:\Users\nesto\Dropbox\PROGRAMACION\Udemy_.Net_6\SistemaFloral\SistemaFloral.Modelos\bin\Debug\net7.0\SistemaFloral.Utilidades.dll
+C:\Users\nesto\Dropbox\PROGRAMACION\Udemy_.Net_6\SistemaFloral\SistemaFloral.Modelos\bin\Debug\net7.0\SistemaFloral.Utilidades.pdb
+C:\Users\nesto\Dropbox\PROGRAMACION\Udemy_.Net_6\SistemaFloral\SistemaFloral.Modelos\obj\Debug\net7.0\SistemaFloral.Modelos.csproj.AssemblyReference.cache
+C:\Users\nesto\Dropbox\PROGRAMACION\Udemy_.Net_6\SistemaFloral\SistemaFloral.Modelos\obj\Debug\net7.0\SistemaFloral.Modelos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nesto\Dropbox\PROGRAMACION\Udemy_.Net_6\SistemaFloral\SistemaFloral.Modelos\obj\Debug\net7.0\SistemaFloral.Modelos.AssemblyInfoInputs.cache
+C:\Users\nesto\Dropbox\PROGRAMACION\Udemy_.Net_6\SistemaFloral\SistemaFloral.Modelos\obj\Debug\net7.0\SistemaFloral.Modelos.AssemblyInfo.cs
+C:\Users\nesto\Dropbox\PROGRAMACION\Udemy_.Net_6\SistemaFloral\SistemaFloral.Modelos\obj\Debug\net7.0\SistemaFloral.Modelos.csproj.CoreCompileInputs.cache
+C:\Users\nesto\Dropbox\PROGRAMACION\Udemy_.Net_6\SistemaFloral\SistemaFloral.Modelos\obj\Debug\net7.0\SistemaFloral.Modelos.csproj.CopyComplete
+C:\Users\nesto\Dropbox\PROGRAMACION\Udemy_.Net_6\SistemaFloral\SistemaFloral.Modelos\obj\Debug\net7.0\SistemaFloral.Modelos.dll
+C:\Users\nesto\Dropbox\PROGRAMACION\Udemy_.Net_6\SistemaFloral\SistemaFloral.Modelos\obj\Debug\net7.0\refint\SistemaFloral.Modelos.dll
+C:\Users\nesto\Dropbox\PROGRAMACION\Udemy_.Net_6\SistemaFloral\SistemaFloral.Modelos\obj\Debug\net7.0\SistemaFloral.Modelos.pdb
+C:\Users\nesto\Dropbox\PROGRAMACION\Udemy_.Net_6\SistemaFloral\SistemaFloral.Modelos\obj\Debug\net7.0\ref\SistemaFloral.Modelos.dll

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "SistemaFloral.Modelos/1.0.0": {
+        "dependencies": {
+          "SistemaFloral.Utilidades": "1.0.0"
+        },
+        "runtime": {
+          "SistemaFloral.Modelos.dll": {}
+        }
+      },
+      "SistemaFloral.Utilidades/1.0.0": {
+        "runtime": {
+          "SistemaFloral.Utilidades.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "SistemaFloral.Modelos/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SistemaFloral.Utilidades/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

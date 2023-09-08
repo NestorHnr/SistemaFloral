@@ -1,0 +1,17 @@
+C:\Users\nesto\Dropbox\PROGRAMACION\Udemy_.Net_6\SistemaFloral\SistemaFloral.AccesoDatos\bin\Debug\net7.0\SistemaFloral.AccesoDatos.deps.json
+C:\Users\nesto\Dropbox\PROGRAMACION\Udemy_.Net_6\SistemaFloral\SistemaFloral.AccesoDatos\bin\Debug\net7.0\SistemaFloral.AccesoDatos.dll
+C:\Users\nesto\Dropbox\PROGRAMACION\Udemy_.Net_6\SistemaFloral\SistemaFloral.AccesoDatos\bin\Debug\net7.0\SistemaFloral.AccesoDatos.pdb
+C:\Users\nesto\Dropbox\PROGRAMACION\Udemy_.Net_6\SistemaFloral\SistemaFloral.AccesoDatos\bin\Debug\net7.0\SistemaFloral.Modelos.dll
+C:\Users\nesto\Dropbox\PROGRAMACION\Udemy_.Net_6\SistemaFloral\SistemaFloral.AccesoDatos\bin\Debug\net7.0\SistemaFloral.Utilidades.dll
+C:\Users\nesto\Dropbox\PROGRAMACION\Udemy_.Net_6\SistemaFloral\SistemaFloral.AccesoDatos\bin\Debug\net7.0\SistemaFloral.Modelos.pdb
+C:\Users\nesto\Dropbox\PROGRAMACION\Udemy_.Net_6\SistemaFloral\SistemaFloral.AccesoDatos\bin\Debug\net7.0\SistemaFloral.Utilidades.pdb
+C:\Users\nesto\Dropbox\PROGRAMACION\Udemy_.Net_6\SistemaFloral\SistemaFloral.AccesoDatos\obj\Debug\net7.0\SistemaFloral.AccesoDatos.csproj.AssemblyReference.cache
+C:\Users\nesto\Dropbox\PROGRAMACION\Udemy_.Net_6\SistemaFloral\SistemaFloral.AccesoDatos\obj\Debug\net7.0\SistemaFloral.AccesoDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\nesto\Dropbox\PROGRAMACION\Udemy_.Net_6\SistemaFloral\SistemaFloral.AccesoDatos\obj\Debug\net7.0\SistemaFloral.AccesoDatos.AssemblyInfoInputs.cache
+C:\Users\nesto\Dropbox\PROGRAMACION\Udemy_.Net_6\SistemaFloral\SistemaFloral.AccesoDatos\obj\Debug\net7.0\SistemaFloral.AccesoDatos.AssemblyInfo.cs
+C:\Users\nesto\Dropbox\PROGRAMACION\Udemy_.Net_6\SistemaFloral\SistemaFloral.AccesoDatos\obj\Debug\net7.0\SistemaFloral.AccesoDatos.csproj.CoreCompileInputs.cache
+C:\Users\nesto\Dropbox\PROGRAMACION\Udemy_.Net_6\SistemaFloral\SistemaFloral.AccesoDatos\obj\Debug\net7.0\SistemaFloral.AccesoDatos.csproj.CopyComplete
+C:\Users\nesto\Dropbox\PROGRAMACION\Udemy_.Net_6\SistemaFloral\SistemaFloral.AccesoDatos\obj\Debug\net7.0\SistemaFloral.AccesoDatos.dll
+C:\Users\nesto\Dropbox\PROGRAMACION\Udemy_.Net_6\SistemaFloral\SistemaFloral.AccesoDatos\obj\Debug\net7.0\refint\SistemaFloral.AccesoDatos.dll
+C:\Users\nesto\Dropbox\PROGRAMACION\Udemy_.Net_6\SistemaFloral\SistemaFloral.AccesoDatos\obj\Debug\net7.0\SistemaFloral.AccesoDatos.pdb
+C:\Users\nesto\Dropbox\PROGRAMACION\Udemy_.Net_6\SistemaFloral\SistemaFloral.AccesoDatos\obj\Debug\net7.0\ref\SistemaFloral.AccesoDatos.dll
