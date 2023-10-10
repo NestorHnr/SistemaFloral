@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "hhNTBvIMHxXRbxFQuYL/HmWrR5oFCcFlextuVpR5Zls=",
+  "Hash": "0ChpJZO79xGMo5YD5E9/VvZUUhFLMMHyjx0PPlwQV+I=",
   "Source": "SistemaFloral",
   "BasePath": "_content/SistemaFloral",
   "Mode": "Default",
@@ -1103,6 +1103,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\nesto\\Dropbox\\PROGRAMACION\\Udemy_.Net_6\\SistemaFloral\\SistemaFloral\\wwwroot\\js\\bodega.js",
+      "SourceId": "SistemaFloral",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nesto\\Dropbox\\PROGRAMACION\\Udemy_.Net_6\\SistemaFloral\\SistemaFloral\\wwwroot\\",
+      "BasePath": "_content/SistemaFloral",
+      "RelativePath": "js/bodega.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bodega.js"
     },
     {
       "Identity": "C:\\Users\\nesto\\Dropbox\\PROGRAMACION\\Udemy_.Net_6\\SistemaFloral\\SistemaFloral\\wwwroot\\js\\site.js",
