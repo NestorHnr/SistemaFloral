@@ -14,12 +14,14 @@ namespace SistemaFloral.AccesoDatos.Repositorio
 
         public IBodegaRepositorio Bodega { get; private set; }
         public ICategoriaRepositorio Categoria { get; private set; }
+        public IOcasionRepositorio Ocasion { get; private set; }
 
         public UnidadTrabajo(ApplicationDbContext db)
         {
             _db = db;
             Bodega = new BodegaRepositorio(db);
             Categoria = new CategoriaRepositorio(db);
+            Ocasion = new OcasionRepositorio(db);
         }
 
         public void Dispose()
