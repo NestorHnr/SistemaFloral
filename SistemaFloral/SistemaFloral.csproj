@@ -2,8 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
-    <Nullable>enable</Nullable>
-    <ImplicitUsings>enable</ImplicitUsings>
+	<ImplicitUsings>enable</ImplicitUsings>
     <UserSecretsId>aspnet-SistemaFloral-d28bf9a2-6340-4f0c-ad7a-60bf5fae6824</UserSecretsId>
   </PropertyGroup>
 
@@ -24,6 +23,10 @@
     <ProjectReference Include="..\SistemaFloral.AccesoDatos\SistemaFloral.AccesoDatos.csproj" />
     <ProjectReference Include="..\SistemaFloral.Modelos\SistemaFloral.Modelos.csproj" />
     <ProjectReference Include="..\SistemaFloral.Utilidades\SistemaFloral.Utilidades.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="wwwroot\imagenes\producto\" />
   </ItemGroup>
 
 </Project>
