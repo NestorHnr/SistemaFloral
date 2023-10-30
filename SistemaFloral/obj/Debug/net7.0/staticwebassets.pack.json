@@ -13,6 +13,18 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\nesto\\Dropbox\\PROGRAMACION\\Udemy_.Net_6\\SistemaFloral\\SistemaFloral\\wwwroot\\imagenes\\icono.ico",
+      "PackagePath": "staticwebassets\\imagenes\\icono.ico"
+    },
+    {
+      "Id": "C:\\Users\\nesto\\Dropbox\\PROGRAMACION\\Udemy_.Net_6\\SistemaFloral\\SistemaFloral\\wwwroot\\imagenes\\icono.png",
+      "PackagePath": "staticwebassets\\imagenes\\icono.png"
+    },
+    {
+      "Id": "C:\\Users\\nesto\\Dropbox\\PROGRAMACION\\Udemy_.Net_6\\SistemaFloral\\SistemaFloral\\wwwroot\\imagenes\\producto\\48918782-9591-4a00-a54a-6a30b0ba4cde.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\48918782-9591-4a00-a54a-6a30b0ba4cde.JPG"
+    },
+    {
       "Id": "C:\\Users\\nesto\\Dropbox\\PROGRAMACION\\Udemy_.Net_6\\SistemaFloral\\SistemaFloral\\wwwroot\\js\\bodega.js",
       "PackagePath": "staticwebassets\\js\\bodega.js"
     },
