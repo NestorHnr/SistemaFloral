@@ -16,6 +16,7 @@ namespace SistemaFloral.AccesoDatos.Repositorio
         public ICategoriaRepositorio Categoria { get; private set; }
         public IOcasionRepositorio Ocasion { get; private set; }
         public IProductoRepositorio Producto { get; private set; }
+        public IUsuarioAplicacionRepositorio UsuarioAplicacion { get; private set; }
 
         public UnidadTrabajo(ApplicationDbContext db)
         {
@@ -24,6 +25,7 @@ namespace SistemaFloral.AccesoDatos.Repositorio
             Categoria = new CategoriaRepositorio(db);
             Ocasion = new OcasionRepositorio(db);
             Producto = new ProductoRepositorio(db);
+            UsuarioAplicacion = new UsuarioAplicacionRepositorio(db);
         }
 
         public void Dispose()

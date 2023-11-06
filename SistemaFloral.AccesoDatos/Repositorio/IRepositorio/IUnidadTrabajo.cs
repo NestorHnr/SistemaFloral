@@ -12,6 +12,7 @@ namespace SistemaFloral.AccesoDatos.Repositorio.IRepositorio
         ICategoriaRepositorio Categoria { get; }
         IOcasionRepositorio Ocasion { get; }
         IProductoRepositorio Producto { get; }
+        IUsuarioAplicacionRepositorio UsuarioAplicacion { get; }
 
         Task Guardar();
     }
