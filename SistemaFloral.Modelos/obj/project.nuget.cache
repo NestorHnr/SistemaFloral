@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "sdsaaetl6xpVZqwt9zQiSGTUJ8hIuq8TzzUGJz1EnQM8pg/3RelzXmgnnv9nTNDOoYLYpbk1C4MxrenQORZwrw==",
+  "dgSpecHash": "mPqc9Myh5lhzffzWs1lZa/RQijWT2FyAnWXuQ2p0SOOpkqyxGU8dFkKOMdFvGApfzbbWzSAHHwNzjObJCVm4bA==",
   "success": true,
   "projectFilePath": "C:\\Users\\nesto\\Dropbox\\PROGRAMACION\\Udemy_.Net_6\\SistemaFloral\\SistemaFloral.Modelos\\SistemaFloral.Modelos.csproj",
   "expectedPackageFiles": [
@@ -21,6 +21,7 @@
     "C:\\Users\\nesto\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.1.1\\microsoft.aspnetcore.http.abstractions.2.1.1.nupkg.sha512",
     "C:\\Users\\nesto\\.nuget\\packages\\microsoft.aspnetcore.http.extensions\\2.1.1\\microsoft.aspnetcore.http.extensions.2.1.1.nupkg.sha512",
     "C:\\Users\\nesto\\.nuget\\packages\\microsoft.aspnetcore.http.features\\2.1.1\\microsoft.aspnetcore.http.features.2.1.1.nupkg.sha512",
+    "C:\\Users\\nesto\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.10\\microsoft.aspnetcore.identity.ui.7.0.10.nupkg.sha512",
     "C:\\Users\\nesto\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\2.1.1\\microsoft.aspnetcore.jsonpatch.2.1.1.nupkg.sha512",
     "C:\\Users\\nesto\\.nuget\\packages\\microsoft.aspnetcore.mvc.abstractions\\2.1.3\\microsoft.aspnetcore.mvc.abstractions.2.1.3.nupkg.sha512",
     "C:\\Users\\nesto\\.nuget\\packages\\microsoft.aspnetcore.mvc.core\\2.1.3\\microsoft.aspnetcore.mvc.core.2.1.3.nupkg.sha512",
@@ -38,7 +39,8 @@
     "C:\\Users\\nesto\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\microsoft.extensions.dependencyinjection.7.0.0.nupkg.sha512",
     "C:\\Users\\nesto\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\nesto\\.nuget\\packages\\microsoft.extensions.dependencymodel\\2.1.0\\microsoft.extensions.dependencymodel.2.1.0.nupkg.sha512",
-    "C:\\Users\\nesto\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\2.1.1\\microsoft.extensions.fileproviders.abstractions.2.1.1.nupkg.sha512",
+    "C:\\Users\\nesto\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\7.0.0\\microsoft.extensions.fileproviders.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\nesto\\.nuget\\packages\\microsoft.extensions.fileproviders.embedded\\7.0.10\\microsoft.extensions.fileproviders.embedded.7.0.10.nupkg.sha512",
     "C:\\Users\\nesto\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\2.1.1\\microsoft.extensions.hosting.abstractions.2.1.1.nupkg.sha512",
     "C:\\Users\\nesto\\.nuget\\packages\\microsoft.extensions.identity.core\\7.0.13\\microsoft.extensions.identity.core.7.0.13.nupkg.sha512",
     "C:\\Users\\nesto\\.nuget\\packages\\microsoft.extensions.identity.stores\\7.0.13\\microsoft.extensions.identity.stores.7.0.13.nupkg.sha512",
