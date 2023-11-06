@@ -21,8 +21,24 @@
       "PackagePath": "staticwebassets\\imagenes\\icono.png"
     },
     {
+      "Id": "C:\\Users\\nesto\\Dropbox\\PROGRAMACION\\Udemy_.Net_6\\SistemaFloral\\SistemaFloral\\wwwroot\\imagenes\\producto\\2e0dd8b3-b433-4794-a121-2ecd84783fdb.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\2e0dd8b3-b433-4794-a121-2ecd84783fdb.JPG"
+    },
+    {
       "Id": "C:\\Users\\nesto\\Dropbox\\PROGRAMACION\\Udemy_.Net_6\\SistemaFloral\\SistemaFloral\\wwwroot\\imagenes\\producto\\48918782-9591-4a00-a54a-6a30b0ba4cde.JPG",
       "PackagePath": "staticwebassets\\imagenes\\producto\\48918782-9591-4a00-a54a-6a30b0ba4cde.JPG"
+    },
+    {
+      "Id": "C:\\Users\\nesto\\Dropbox\\PROGRAMACION\\Udemy_.Net_6\\SistemaFloral\\SistemaFloral\\wwwroot\\imagenes\\producto\\b2132a82-2886-4dcf-9564-73da962bd277.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\b2132a82-2886-4dcf-9564-73da962bd277.JPG"
+    },
+    {
+      "Id": "C:\\Users\\nesto\\Dropbox\\PROGRAMACION\\Udemy_.Net_6\\SistemaFloral\\SistemaFloral\\wwwroot\\imagenes\\producto\\d3f4654b-17e7-419f-926c-d4328e6cd29d.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\d3f4654b-17e7-419f-926c-d4328e6cd29d.JPG"
+    },
+    {
+      "Id": "C:\\Users\\nesto\\Dropbox\\PROGRAMACION\\Udemy_.Net_6\\SistemaFloral\\SistemaFloral\\wwwroot\\imagenes\\producto\\e96f3786-5c49-4d28-835f-454408cd3310.JPG",
+      "PackagePath": "staticwebassets\\imagenes\\producto\\e96f3786-5c49-4d28-835f-454408cd3310.JPG"
     },
     {
       "Id": "C:\\Users\\nesto\\Dropbox\\PROGRAMACION\\Udemy_.Net_6\\SistemaFloral\\SistemaFloral\\wwwroot\\js\\bodega.js",
