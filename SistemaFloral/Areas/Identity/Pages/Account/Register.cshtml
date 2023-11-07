@@ -64,10 +64,12 @@
                 @if (User.IsInRole(DS.Role_Admin))
                 {
                     <div class="form-floating mb-3">
-                        <label asp-for="Input.Role">Rol</label>
+                        
+                       
                         <select asp-for="Input.Role" class="form-select" asp-items="@Model.Input.ListaRol">
-                            <option value="">--Seleccione el Rol</option>
-                        </select>/>
+                            <option value="">--  Seleccione el Rol  --</option>
+                        </select>
+                        <label asp-for="Input.Role" for="floatingSelect">Rol</label>
                     </div>    
                 }
 

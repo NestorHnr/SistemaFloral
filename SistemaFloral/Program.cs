@@ -15,8 +15,21 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
 builder.Services.AddIdentity<IdentityUser, IdentityRole>(options => options.SignIn.RequireConfirmedAccount = false)
+    .AddErrorDescriber<ErrorDescriber>()
     .AddDefaultTokenProviders()
     .AddEntityFrameworkStores<ApplicationDbContext>();
+
+builder.Services.Configure<IdentityOptions>(options =>
+{
+    options.Password.RequireDigit = true; //Password exige numeros
+    options.Password.RequireLowercase = true; //Password requiere al menos una letra minuscula
+    options.Password.RequireNonAlphanumeric = true; //Password exige caracteres especiales
+    options.Password.RequireUppercase = true; //Password exige letras mayusculas
+    options.Password.RequiredLength = 6; //Password exige un minimimo de caracteres
+    options.Password.RequiredUniqueChars = 1; //Password indica la cantidad de caradcteres
+
+});
+
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation();
 
 builder.Services.AddScoped<IUnidadTrabajo, UnidadTrabajo>();

@@ -65,6 +65,10 @@
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
+      "Id": "C:\\Users\\nesto\\Dropbox\\PROGRAMACION\\Udemy_.Net_6\\SistemaFloral\\SistemaFloral\\wwwroot\\js\\usuario.js",
+      "PackagePath": "staticwebassets\\js\\usuario.js"
+    },
+    {
       "Id": "C:\\Users\\nesto\\Dropbox\\PROGRAMACION\\Udemy_.Net_6\\SistemaFloral\\SistemaFloral\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },

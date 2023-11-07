@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "QzwxOqe74/Td44rzNdVLCJwXme/AskWRrhnhYIPvSsk=",
+  "Hash": "CTt2OygByLaUPIokEqcAFPj+qd2Fzug2AFbNif3N3rg=",
   "Source": "SistemaFloral",
   "BasePath": "_content/SistemaFloral",
   "Mode": "Default",
@@ -1324,6 +1324,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\site.js"
+    },
+    {
+      "Identity": "C:\\Users\\nesto\\Dropbox\\PROGRAMACION\\Udemy_.Net_6\\SistemaFloral\\SistemaFloral\\wwwroot\\js\\usuario.js",
+      "SourceId": "SistemaFloral",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\nesto\\Dropbox\\PROGRAMACION\\Udemy_.Net_6\\SistemaFloral\\SistemaFloral\\wwwroot\\",
+      "BasePath": "_content/SistemaFloral",
+      "RelativePath": "js/usuario.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\usuario.js"
     },
     {
       "Identity": "C:\\Users\\nesto\\Dropbox\\PROGRAMACION\\Udemy_.Net_6\\SistemaFloral\\SistemaFloral\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
