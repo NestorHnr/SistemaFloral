@@ -1,10 +1,14 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using SistemaFloral.AccesoDatos.Repositorio.IRepositorio;
 using SistemaFloral.Modelos.Modelos;
+using SistemaFloral.Utilidades;
+using System.Data;
 
 namespace SistemaFloral.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    [Authorize(Roles = DS.Role_Admin)]
     public class CategoriaController : Controller
     {
 
