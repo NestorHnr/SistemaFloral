@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-lg-6">
+        <h2 class="text-success">Stock de Productos</h2>
+    </div>
+    <div class="col-lg-6 d-flex justify-content-end align-items-center">
+        <a class="btn btn-outline-success" asp-action="NuevoInventario"><i class="bi bi-plus-circle-fill"></i> Crear Nueva Inventario</a>
+        <a class="btn btn-outline-success" asp-action="KardexProducto"> Kardex</a>
+    </div>
+</div>
+
+<br />
+
+<div class="p-4 rounded bg-light" style="box-shadow: 0px 0px 10px rgba(11, 83, 69, 0.5);">
+    <table id="tblDatos" class="table table-responsive table-hover">
+        <thead class="table" style="background-color:rgba(25, 135, 84); color:white">
+            <tr>
+                <th>Bodega</th>
+                <th>Producto</th>
+                <th>Costo</th>
+                <th>Cantidad</th>
+            </tr>
+        </thead>
+    </table>
+</div>
+
+@section Scripts{
+    <script src="~/js/inventario.js"></script>
+}

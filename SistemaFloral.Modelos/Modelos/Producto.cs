@@ -36,7 +36,7 @@ namespace SistemaFloral.Modelos.Modelos
         //Relaciones con otros modelos
 
         //propiedad
-        [Required(ErrorMessage ="Cateroria es requerida")]
+        [Required(ErrorMessage ="Categoria es requerida")]
         public int CategoriaId { get; set; }
 
         //Navegacion: a que modelo quiere navegar con la propiedad creada

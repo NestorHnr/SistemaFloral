@@ -17,15 +17,24 @@ namespace SistemaFloral.AccesoDatos.Repositorio
         public IOcasionRepositorio Ocasion { get; private set; }
         public IProductoRepositorio Producto { get; private set; }
         public IUsuarioAplicacionRepositorio UsuarioAplicacion { get; private set; }
+        public IBodegaProductoRepositorio BodegaProducto { get; private set; }
+        public IInventarioRepositorio Inventario { get; private set; }
+        public IInventarioDetalleRepositorio InventarioDetalle { get; private set; }
+        public IKardexInventarioRepositorio KardexInventario { get; private set; }
 
         public UnidadTrabajo(ApplicationDbContext db)
         {
             _db = db;
-            Bodega = new BodegaRepositorio(db);
-            Categoria = new CategoriaRepositorio(db);
-            Ocasion = new OcasionRepositorio(db);
-            Producto = new ProductoRepositorio(db);
-            UsuarioAplicacion = new UsuarioAplicacionRepositorio(db);
+            Bodega = new BodegaRepositorio(_db);
+            Categoria = new CategoriaRepositorio(_db);
+            Ocasion = new OcasionRepositorio(_db);
+            Producto = new ProductoRepositorio(_db);
+            UsuarioAplicacion = new UsuarioAplicacionRepositorio(_db);
+            BodegaProducto = new BodegaProductoRepositorio(_db);
+            Inventario = new InventarioRepositorio(_db);
+            InventarioDetalle = new InventarioDetalleRepositorio(_db);
+            KardexInventario = new KardexInventarioRepositorio(_db);
+            
         }
 
         public void Dispose()

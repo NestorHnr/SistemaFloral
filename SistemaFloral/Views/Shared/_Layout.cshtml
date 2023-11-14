@@ -20,6 +20,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
 
+    <link href="~/lib/select2-bootstrap-5-theme/select2-bootstrap-5-theme.min.css" rel="stylesheet" />
+
 </head>
 <body>
     <header>
@@ -71,6 +73,19 @@
 
                             </li>
                         }
+
+                        @if (User.IsInRole(DS.Role_Admin) || User.IsInRole(DS.Role_Inventario))
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Inventartio
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" asp-area="Inventario" asp-controller="Inventario" asp-action="Index">Stock Productos</a></li>
+                                </ul>
+
+                            </li>
+                        }
                        
 
                     </ul>
@@ -98,6 +113,8 @@
     <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
+    <script src="~/lib/select2/js/select2.min.js"></script>
 
     @await RenderSectionAsync("Scripts", required: false)
 </body>
