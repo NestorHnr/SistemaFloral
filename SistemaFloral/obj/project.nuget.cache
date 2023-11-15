@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "B3rSwuSU35apF+zMULXvUPGJ3GW/46pwp1vlK0tNLQnDuaXUS552r+qNOWRyClit8tjPE79qMtpCg5XNTxAtpg==",
+  "dgSpecHash": "VRFESiYznWJRXCM/RmiSDXggwpQs9o+InVA8nyIBhILfsTgdHpPG9V3GH1u+rl5dM5WCrqlIeoO2TR19UNK3Xw==",
   "success": true,
   "projectFilePath": "C:\\Users\\nesto\\Dropbox\\PROGRAMACION\\Udemy_.Net_6\\SistemaFloral\\SistemaFloral\\SistemaFloral.csproj",
   "expectedPackageFiles": [
@@ -170,6 +170,7 @@
     "C:\\Users\\nesto\\.nuget\\packages\\nuget.projectmodel\\6.6.1\\nuget.projectmodel.6.6.1.nupkg.sha512",
     "C:\\Users\\nesto\\.nuget\\packages\\nuget.protocol\\6.6.1\\nuget.protocol.6.6.1.nupkg.sha512",
     "C:\\Users\\nesto\\.nuget\\packages\\nuget.versioning\\6.6.1\\nuget.versioning.6.6.1.nupkg.sha512",
+    "C:\\Users\\nesto\\.nuget\\packages\\rotativa.aspnetcore\\1.3.2\\rotativa.aspnetcore.1.3.2.nupkg.sha512",
     "C:\\Users\\nesto\\.nuget\\packages\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.debian.8-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\nesto\\.nuget\\packages\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.23-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
     "C:\\Users\\nesto\\.nuget\\packages\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl\\4.3.0\\runtime.fedora.24-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
