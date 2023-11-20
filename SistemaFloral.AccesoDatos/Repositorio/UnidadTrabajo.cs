@@ -21,6 +21,7 @@ namespace SistemaFloral.AccesoDatos.Repositorio
         public IInventarioRepositorio Inventario { get; private set; }
         public IInventarioDetalleRepositorio InventarioDetalle { get; private set; }
         public IKardexInventarioRepositorio KardexInventario { get; private set; }
+        public IFloristeriaRepositorio Floristeria { get; private set; }
 
         public UnidadTrabajo(ApplicationDbContext db)
         {
@@ -34,6 +35,7 @@ namespace SistemaFloral.AccesoDatos.Repositorio
             Inventario = new InventarioRepositorio(_db);
             InventarioDetalle = new InventarioDetalleRepositorio(_db);
             KardexInventario = new KardexInventarioRepositorio(_db);
+            Floristeria = new FloristeriaRepositorio(_db);
             
         }
 

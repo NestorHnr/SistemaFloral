@@ -1,0 +1,105 @@
+﻿@model SistemaFloral.Modelos.ViewModels.FloristeriaVM
+@{
+    ViewData["Title"] = "Upsert";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+<form method="post" style="box-shadow: 0px 0px 10px rgba(11, 83, 69, 0.5);">
+    <div class="container" style="padding-bottom:0.5rem;">
+        <div class="row p-1 border-0">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        </div>
+
+        @if (Model.Floristeria.Id != 0)
+        {
+            <input type="hidden" asp-for="Floristeria.Id" />
+        }
+
+
+        <div class="col-12 border-bottom p-1">
+            <h2 class="text-success">Floristeria<i class="fas fa-user-tie"></i></h2>
+        </div>
+
+        <div class="form-group mb-2" style="padding-top:14px;">
+            <label>Nombre</label>
+            <input type="text" asp-for="Floristeria.Nombre" class="form-control" placeholder="Nombre" />
+            <span asp-validation-for="Floristeria.Nombre" class="text-danger"></span>
+        </div>
+
+
+        <div class="form-group mb-2" style="padding-top:14px;">
+            <label>Descripcion</label>
+            <textarea type="text" asp-for="Floristeria.Descripcion" class="form-control" placeholder="Descripcion" rows=2></textarea>
+            <span asp-validation-for="Floristeria.Descripcion" class="text-danger"></span>
+        </div>
+
+        <div class="row mb-2">
+            <div class="form-group col-md-4">
+                <label>Pais</label>
+                <input type="text" asp-for="Floristeria.Pais" class="form-control" placeholder="Pais" />
+                <span asp-validation-for="Floristeria.Pais" class="text-danger"></span>
+            </div>
+            <div class="form-group col-md-4">
+                <label>Ciudad</label>
+                <input type="text" asp-for="Floristeria.Ciudad" class="form-control" placeholder="Ciudad" />
+                <span asp-validation-for="Floristeria.Ciudad" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="form-group mb-2">
+            <label>WhatsApp</label>
+            <input type="text" asp-for="Floristeria.WhatsAppUrl" class="form-control" placeholder="WhatsApp" />
+        </div>
+
+        <div class="form-group mb-2">
+            <label>Facebook</label>
+            <input type="text" asp-for="Floristeria.FacebookUrl" class="form-control" placeholder="Facebook" />
+        </div>
+
+        <div class="form-group mb-2">
+            <label>Instagram</label>
+            <input type="text" asp-for="Floristeria.InstagramUrl" class="form-control" placeholder="Instagram" />
+        </div>
+
+        <div class="form-group mb-2">
+            <label>Direccion</label>
+            <input type="text" asp-for="Floristeria.Direccion" class="form-control" placeholder="Direccion" />
+            <span asp-validation-for="Floristeria.Direccion" class="text-danger"></span>
+        </div>
+        <div class="row mb-2">
+
+            <div class="form-group col-md-6">
+                <label>Telephone</label>
+                <input type="text" asp-for="Floristeria.Telefono" class="form-control" placeholder="Telephone" />
+                <span asp-validation-for="Floristeria.Telefono" class="text-danger"></span>
+            </div>
+
+            <div class="form-group col-md-6">
+                <label>Bodega de Venta</label>
+                <select asp-for="Floristeria.BodegaVentaId" asp-items="@Model.BodegaLista" class="form-select">
+                    <option value="">-- Seleccione una Bodega --</option>
+                </select>
+                <span asp-validation-for="Floristeria.BodegaVentaId" class="text-danger"></span>
+            </div>
+
+        </div>
+
+        <br />
+
+        <div class="d-grid gap-2 d-md-block">
+            <button type="submit" class="btn btn-success"><i class="fas fa-plus"></i> Grabar</button>
+        </div>
+
+    </div>
+</form>
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
+
+
+
+

@@ -6,7 +6,7 @@
     var titulo = "Crear Nuevo Producto";
 }
 
-<form method="post" enctype="multipart/form-data" style="box-shadow: 0px 0px 10px rgba(11, 83, 69, 0.5);"> @*Enctype indica que se va a trabajar con un archivo imagenes*@
+<form method="post" enctype="multipart/form-data" > @*Enctype indica que se va a trabajar con un archivo imagenes*@
     @if (Model.Producto.Id != 0)
     {
         titulo = "Editar Producto";
@@ -17,14 +17,14 @@
     <div class="border p-3">
         <div asp-validation-summary="ModelOnly" class="text-danger"></div>
         <div class="row">
-            <h2 class="text-info">@titulo</h2>
+            <h2 class="text-success bg-success text-white text-center">@titulo</h2>
         </div>
 
-        <div class="row">
-            <div class="col-8">
+        <div class="row" style="box-shadow: 0px 0px 10px rgba(11, 83, 69, 0.5);">
+            <div class="col-8 offset-sm-2">
                 <div class="container">
-                    <div class="row">
-                        <div class="col-md-6">
+                    <div class="row mt-2">
+                        <div class="col-md-12">
                             <label>Numero de Serie</label>
                             <input asp-for="Producto.NumeroSerie" class="form-control" />
                             <span asp-validation-for="Producto.NumeroSerie" class="text-danger"></span>
@@ -32,7 +32,7 @@
                     </div>
 
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <label>Nombre</label>
                             <input asp-for="Producto.Nombre" class="form-control" />
                             <span asp-validation-for="Producto.Nombre" class="text-danger"></span>
@@ -40,7 +40,7 @@
                     </div>
 
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <label>Descripcion</label>
                             <input asp-for="Producto.Descripcion" class="form-control" />
                             <span asp-validation-for="Producto.Descripcion" class="text-danger"></span>
@@ -48,7 +48,7 @@
                     </div>
 
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <label>Costo</label>
                             <input asp-for="Producto.Costo" class="form-control" />
                             <span asp-validation-for="Producto.Costo" class="text-danger"></span>
@@ -56,7 +56,7 @@
                     </div>
 
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <label>Imagen</label>
                             <input type="file" accept="image/png, image/gif, image/jpeg" name="files" id="imagenId" class="form-control" />
                             <span asp-validation-for="Producto.ImagenUrl" class="text-danger"></span>
@@ -64,7 +64,7 @@
                     </div>
 
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <label>Categorias</label>
                             <select asp-for="Producto.CategoriaId" asp-items="@Model.CategoriaLista" class="form-select">
                                 <option disabled selected>-- Seleccione una Categoria --</option>
@@ -74,7 +74,7 @@
                     </div>
 
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <label>Ocasiones</label>
                             <select asp-for="Producto.OcasionId" asp-items="@Model.OcasionLista" class="form-select">
                                 <option disabled selected>-- Seleccione una Ocasion --</option>
@@ -84,7 +84,7 @@
                     </div>
 
                     <div class="row">
-                        <div class="col-md-6">
+                        <div class="col-md-12">
                             <label>Estado</label>
                             <select asp-for="Producto.Estado" class="form-select">
                                 <option value="true">-- Activo --</option>
@@ -96,7 +96,7 @@
 
                     <br />
 
-                    <div class="d-grid gap-2 d-md-block">
+                    <div class="d-grid gap-2 d-md-block text-center mb-2">
                         @if (Model.Producto.Id != 0)
                         {
                             <partial name="_BotonesActualizarRegresar" model="Model.Producto.Id" />

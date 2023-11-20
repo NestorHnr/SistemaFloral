@@ -306,6 +306,85 @@ namespace SistemaFloral.AccesoDatos.Migrations
                     b.ToTable("Categorias");
                 });
 
+            modelBuilder.Entity("SistemaFloral.Modelos.Modelos.Floristeria", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("ActualizadoPorId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("ActualizadoProId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("BodegaVentaId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("Ciudad")
+                        .IsRequired()
+                        .HasMaxLength(60)
+                        .HasColumnType("nvarchar(60)");
+
+                    b.Property<string>("CreadoPorId")
+                        .HasColumnType("nvarchar(450)");
+
+                    b.Property<string>("CreadoProId")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Descripcion")
+                        .IsRequired()
+                        .HasMaxLength(200)
+                        .HasColumnType("nvarchar(200)");
+
+                    b.Property<string>("Direccion")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.Property<string>("FacebookUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("FechaActualizacion")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("FechaCreacion")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("InstagramUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Nombre")
+                        .IsRequired()
+                        .HasMaxLength(80)
+                        .HasColumnType("nvarchar(80)");
+
+                    b.Property<string>("Pais")
+                        .IsRequired()
+                        .HasMaxLength(60)
+                        .HasColumnType("nvarchar(60)");
+
+                    b.Property<string>("Telefono")
+                        .IsRequired()
+                        .HasMaxLength(40)
+                        .HasColumnType("nvarchar(40)");
+
+                    b.Property<string>("WhatsAppUrl")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("ActualizadoPorId");
+
+                    b.HasIndex("BodegaVentaId");
+
+                    b.HasIndex("CreadoPorId");
+
+                    b.ToTable("Floristerias");
+                });
+
             modelBuilder.Entity("SistemaFloral.Modelos.Modelos.Inventario", b =>
                 {
                     b.Property<int>("Id")
@@ -592,6 +671,31 @@ namespace SistemaFloral.AccesoDatos.Migrations
                     b.Navigation("Bodega");
 
                     b.Navigation("Producto");
+                });
+
+            modelBuilder.Entity("SistemaFloral.Modelos.Modelos.Floristeria", b =>
+                {
+                    b.HasOne("SistemaFloral.Modelos.Modelos.UsuarioAplicacion", "ActualizadoPor")
+                        .WithMany()
+                        .HasForeignKey("ActualizadoPorId")
+                        .OnDelete(DeleteBehavior.NoAction);
+
+                    b.HasOne("SistemaFloral.Modelos.Modelos.Bodega", "Bodega")
+                        .WithMany()
+                        .HasForeignKey("BodegaVentaId")
+                        .OnDelete(DeleteBehavior.NoAction)
+                        .IsRequired();
+
+                    b.HasOne("SistemaFloral.Modelos.Modelos.UsuarioAplicacion", "CreadoPor")
+                        .WithMany()
+                        .HasForeignKey("CreadoPorId")
+                        .OnDelete(DeleteBehavior.NoAction);
+
+                    b.Navigation("ActualizadoPor");
+
+                    b.Navigation("Bodega");
+
+                    b.Navigation("CreadoPor");
                 });
 
             modelBuilder.Entity("SistemaFloral.Modelos.Modelos.Inventario", b =>
