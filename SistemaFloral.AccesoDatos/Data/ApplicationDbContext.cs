@@ -22,6 +22,9 @@ namespace SistemaFloral.AccesoDatos.Data
         public DbSet<InventarioDetalle> InventarioDetalles { get; set; }
         public DbSet<KardexInventario> KardexInventarios { get; set; }
         public DbSet<Floristeria> Floristerias { get; set; }
+        public DbSet<CarroCompra> CarroCompras { get; set; }
+        public DbSet<Orden> Ordenes { get; set; }
+        public DbSet<OrdenDetalle> OrdeenDetalles { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

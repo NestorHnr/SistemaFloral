@@ -18,6 +18,9 @@ namespace SistemaFloral.AccesoDatos.Repositorio.IRepositorio
         IInventarioDetalleRepositorio InventarioDetalle { get; }
         IKardexInventarioRepositorio KardexInventario { get; }
         IFloristeriaRepositorio Floristeria { get; }
+        ICarroCompraRepositorio CarroCompra { get; }
+        IOrdenRepositorio Orden { get; }
+        IOrdenDetalleRepositorio OrdenDetalle { get; }
 
         Task Guardar();
     }
