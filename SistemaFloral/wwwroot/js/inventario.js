@@ -26,7 +26,7 @@ function loadDataTable() {
         },
         "columns": [
             { "data": "bodega.nombre"},
-            { "data": "producto.nombre"},
+            { "data": "producto.descripcion"},
             {
                 "data": "producto.costo", "className": "text-end",
                 "render": function (data) {

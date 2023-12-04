@@ -29,7 +29,6 @@ namespace SistemaFloral.AccesoDatos.Repositorio
                     productoDB.ImagenUrl = producto.ImagenUrl;
                 }
                 productoDB.NumeroSerie = producto.NumeroSerie;
-                productoDB.Nombre = producto.Nombre;
                 productoDB.Descripcion = producto.Descripcion;
                 productoDB.Costo = producto.Costo;
                 productoDB.CategoriaId = producto.CategoriaId;

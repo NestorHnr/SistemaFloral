@@ -672,11 +672,6 @@ namespace SistemaFloral.AccesoDatos.Migrations
                     b.Property<string>("ImagenUrl")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Nombre")
-                        .IsRequired()
-                        .HasMaxLength(60)
-                        .HasColumnType("nvarchar(60)");
-
                     b.Property<string>("NumeroSerie")
                         .IsRequired()
                         .HasMaxLength(60)

@@ -15,7 +15,6 @@ namespace SistemaFloral.AccesoDatos.Configuracion
         {
             builder.Property(x => x.Id).IsRequired();
             builder.Property(x => x.NumeroSerie).IsRequired().HasMaxLength(60);
-            builder.Property(x => x.Nombre).IsRequired().HasMaxLength(60);
             builder.Property(x => x.Descripcion).IsRequired().HasMaxLength(80);
             builder.Property(x => x.Estado).IsRequired();
             builder.Property(x => x.Costo).IsRequired();

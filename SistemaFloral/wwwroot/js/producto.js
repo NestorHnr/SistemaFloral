@@ -25,7 +25,7 @@ function loadDataTable() {
             "url": "/Admin/Producto/ObtenerTodos"
         },
         "columns": [
-            { "data": "nombre"},
+            { "data": "numeroSerie"},
             { "data": "descripcion"},
             { "data": "categoria.nombre"},
             { "data": "ocasion.nombre"},

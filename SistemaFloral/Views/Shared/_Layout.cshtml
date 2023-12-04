@@ -1,4 +1,7 @@
 ﻿@using SistemaFloral.Utilidades
+@using Microsoft.AspNetCore.Http
+@inject IHttpContextAccessor httpContextAccessor
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -89,6 +92,23 @@
                             </li>
                         }
                        
+                        @if (httpContextAccessor.HttpContext.Session.GetInt32(DS.ssCarroCompras) != null)
+                        {
+                            <li>
+                                <a asp-area="Inventario" asp-controller="Carro" asp-action="Index" class="nav-link">
+                                    @{
+                                        var numeroProductos = httpContextAccessor.HttpContext.Session.GetInt32(DS.ssCarroCompras);
+                                    }
+                                    <i class="bi bi-cart3 text-success">&nbsp; (@numeroProductos) </i>
+                                </a>
+                            </li>
+                        }
+                        else
+                        {
+                            <a href="#" class="nav-link">
+                                <i class="bi bi-cart3 text-success">&nbsp; (0) </i>
+                            </a>    
+                        }
 
                     </ul>
                     <partial name="_LoginPartial" />

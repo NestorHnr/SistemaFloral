@@ -17,10 +17,6 @@ namespace SistemaFloral.Modelos.Modelos
         [MaxLength(60)]
         public string NumeroSerie   { get; set; }
 
-        [Required(ErrorMessage ="Nombre es requerido")]
-        [MaxLength(60)]
-        public string Nombre { get; set; }
-
         [Required(ErrorMessage ="Descripcion es requerida")]
         [MaxLength(80)]
         public string Descripcion { get; set; }
